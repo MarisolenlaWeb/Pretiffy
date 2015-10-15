@@ -1,0 +1,86 @@
+*{
+	font-family: Oswald;
+}
+nav ul{
+	list-style: none;
+	text-transform: uppercase;
+	margin: 20px 0 20px 0;
+	white-space: nowrap;
+	text-align: center;
+}
+nav li{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px 5px;
+	color: black;
+	font-weight: bold;
+}
+nav a:hover{
+	color: #C51BAD;
+}
+.background1{
+	background-image: url("../images/background.jpg");
+	background-size: 100%;
+	height: 350px;
+}
+.stylelogo{
+	margin: 40px 425px 10px;
+}
+.title1{
+	margin: 20px; 
+	text-align: center;
+	color: #fff;
+}
+.background2{
+	background-image: url("../images/tile1.png"); 
+}
+h2{
+	color: #C51BAD;
+	text-align: center;
+	margin: 50px 30px;
+}
+.imgsize{
+	width: 200px;
+	height: 200px;
+	margin: 0 15px 50px;
+}
+.marcoimg { 
+   padding:3px; 
+   background-color: #f5f5f5; 
+   border: 2px solid #d6d6d6;
+}
+h5{
+	margin-top: -30px;
+	text-align: center;
+	color: #C51BAD;
+}
+.styleimg{
+	width: 200px;
+	height: 200px;
+	margin: 20px 10px;
+	border-radius: 100%;
+}
+div:not(footer) a:hover{
+	opacity: 0.8;
+}
+/*Quise usar el not pero no funciona*/
+footer{
+	background-image: url("../images/tile2.png");
+	margin-top: 40px;
+}
+footer img{
+	width: 25%;
+	margin: 0 0 40px 27px;
+}
+.zoomIt:hover{
+-moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1)
+}
